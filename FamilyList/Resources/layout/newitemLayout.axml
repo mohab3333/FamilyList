@@ -12,25 +12,33 @@
         <LinearLayout
             android:orientation="vertical"
             android:id="@+id/linearLayout1"
-            android:layout_width="wrap_content"
+            android:layout_width="250dp"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true">
-            <TextView
-                android:textAppearance="?android:attr/textAppearanceMedium"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:id="@+id/textViewname"
-                android:hint="Item's name" />
-            <TextView
-                android:textAppearance="?android:attr/textAppearanceMedium"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:id="@+id/textViewprice"
-                android:hint="Item's price" />
+            <EditText
+                android:id="@+id/txtnewitemname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="item's name" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtnewitemprice"
+                android:hint="item's price" />
             <Spinner
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/spinner1" />
         </LinearLayout>
+        <Button
+            android:text="Add"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnadd"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="false"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/custombutton" />
     </RelativeLayout>
 </LinearLayout>

@@ -1637,7 +1637,13 @@ namespace FamilyList
 			public const int common_signin_btn_text_pressed_light = 2130837598;
 			
 			// aapt resource value: 0x7f02005f
-			public const int notification_template_icon_bg = 2130837599;
+			public const int customButton = 2130837599;
+			
+			// aapt resource value: 0x7f020060
+			public const int ic_launcher = 2130837600;
+			
+			// aapt resource value: 0x7f020061
+			public const int notification_template_icon_bg = 2130837601;
 			
 			static Drawable()
 			{
@@ -1652,8 +1658,8 @@ namespace FamilyList
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f0c0060
-			public const int action0 = 2131492960;
+			// aapt resource value: 0x7f0c0066
+			public const int action0 = 2131492966;
 			
 			// aapt resource value: 0x7f0c0043
 			public const int action_bar = 2131492931;
@@ -1679,8 +1685,8 @@ namespace FamilyList
 			// aapt resource value: 0x7f0c0044
 			public const int action_context_bar = 2131492932;
 			
-			// aapt resource value: 0x7f0c0064
-			public const int action_divider = 2131492964;
+			// aapt resource value: 0x7f0c006a
+			public const int action_divider = 2131492970;
 			
 			// aapt resource value: 0x7f0c0002
 			public const int action_menu_divider = 2131492866;
@@ -1715,23 +1721,32 @@ namespace FamilyList
 			// aapt resource value: 0x7f0c001a
 			public const int beginning = 2131492890;
 			
-			// aapt resource value: 0x7f0c0059
-			public const int btnadditems = 2131492953;
+			// aapt resource value: 0x7f0c0065
+			public const int btnadd = 2131492965;
 			
-			// aapt resource value: 0x7f0c005c
-			public const int btnlogin = 2131492956;
+			// aapt resource value: 0x7f0c005a
+			public const int btnadditems = 2131492954;
+			
+			// aapt resource value: 0x7f0c0076
+			public const int btnadduser = 2131492982;
+			
+			// aapt resource value: 0x7f0c005f
+			public const int btnlogin = 2131492959;
+			
+			// aapt resource value: 0x7f0c0061
+			public const int btnsignup = 2131492961;
 			
 			// aapt resource value: 0x7f0c002d
 			public const int buttonPanel = 2131492909;
 			
-			// aapt resource value: 0x7f0c0061
-			public const int cancel_action = 2131492961;
+			// aapt resource value: 0x7f0c0067
+			public const int cancel_action = 2131492967;
 			
 			// aapt resource value: 0x7f0c003b
 			public const int checkbox = 2131492923;
 			
-			// aapt resource value: 0x7f0c0067
-			public const int chronometer = 2131492967;
+			// aapt resource value: 0x7f0c006d
+			public const int chronometer = 2131492973;
 			
 			// aapt resource value: 0x7f0c001e
 			public const int collapseActionView = 2131492894;
@@ -1760,8 +1775,8 @@ namespace FamilyList
 			// aapt resource value: 0x7f0c001b
 			public const int end = 2131492891;
 			
-			// aapt resource value: 0x7f0c006c
-			public const int end_padder = 2131492972;
+			// aapt resource value: 0x7f0c0072
+			public const int end_padder = 2131492978;
 			
 			// aapt resource value: 0x7f0c0027
 			public const int expand_activities_button = 2131492903;
@@ -1784,20 +1799,23 @@ namespace FamilyList
 			// aapt resource value: 0x7f0c0028
 			public const int image = 2131492904;
 			
+			// aapt resource value: 0x7f0c0057
+			public const int imageView1 = 2131492951;
+			
 			// aapt resource value: 0x7f0c0056
 			public const int importance = 2131492950;
 			
-			// aapt resource value: 0x7f0c006b
-			public const int info = 2131492971;
+			// aapt resource value: 0x7f0c0071
+			public const int info = 2131492977;
 			
 			// aapt resource value: 0x7f0c0054
 			public const int itemname = 2131492948;
 			
-			// aapt resource value: 0x7f0c0065
-			public const int line1 = 2131492965;
+			// aapt resource value: 0x7f0c006b
+			public const int line1 = 2131492971;
 			
-			// aapt resource value: 0x7f0c0069
-			public const int line3 = 2131492969;
+			// aapt resource value: 0x7f0c006f
+			public const int line3 = 2131492975;
 			
 			// aapt resource value: 0x7f0c0052
 			public const int linearLayout1 = 2131492946;
@@ -1805,14 +1823,20 @@ namespace FamilyList
 			// aapt resource value: 0x7f0c0053
 			public const int linearLayout2 = 2131492947;
 			
+			// aapt resource value: 0x7f0c005c
+			public const int linearLayoutlogIn = 2131492956;
+			
 			// aapt resource value: 0x7f0c000c
 			public const int listMode = 2131492876;
+			
+			// aapt resource value: 0x7f0c0058
+			public const int listView1 = 2131492952;
 			
 			// aapt resource value: 0x7f0c002a
 			public const int list_item = 2131492906;
 			
-			// aapt resource value: 0x7f0c0063
-			public const int media_actions = 2131492963;
+			// aapt resource value: 0x7f0c0069
+			public const int media_actions = 2131492969;
 			
 			// aapt resource value: 0x7f0c001c
 			public const int middle = 2131492892;
@@ -1844,8 +1868,8 @@ namespace FamilyList
 			// aapt resource value: 0x7f0c003d
 			public const int radio = 2131492925;
 			
-			// aapt resource value: 0x7f0c0057
-			public const int relativeLayout1 = 2131492951;
+			// aapt resource value: 0x7f0c005b
+			public const int relativeLayout1 = 2131492955;
 			
 			// aapt resource value: 0x7f0c0016
 			public const int screen = 2131492886;
@@ -1892,8 +1916,8 @@ namespace FamilyList
 			// aapt resource value: 0x7f0c0051
 			public const int select_dialog_listview = 2131492945;
 			
-			// aapt resource value: 0x7f0c0058
-			public const int shoppinglistview = 2131492952;
+			// aapt resource value: 0x7f0c0059
+			public const int shoppinglistview = 2131492953;
 			
 			// aapt resource value: 0x7f0c003c
 			public const int shortcut = 2131492924;
@@ -1910,8 +1934,8 @@ namespace FamilyList
 			// aapt resource value: 0x7f0c002e
 			public const int spacer = 2131492910;
 			
-			// aapt resource value: 0x7f0c005f
-			public const int spinner1 = 2131492959;
+			// aapt resource value: 0x7f0c0064
+			public const int spinner1 = 2131492964;
 			
 			// aapt resource value: 0x7f0c0007
 			public const int split_action_bar = 2131492871;
@@ -1925,8 +1949,8 @@ namespace FamilyList
 			// aapt resource value: 0x7f0c0019
 			public const int src_over = 2131492889;
 			
-			// aapt resource value: 0x7f0c0062
-			public const int status_bar_latest_event_content = 2131492962;
+			// aapt resource value: 0x7f0c0068
+			public const int status_bar_latest_event_content = 2131492968;
 			
 			// aapt resource value: 0x7f0c004e
 			public const int submit_area = 2131492942;
@@ -1934,23 +1958,20 @@ namespace FamilyList
 			// aapt resource value: 0x7f0c000e
 			public const int tabMode = 2131492878;
 			
-			// aapt resource value: 0x7f0c006a
-			public const int text = 2131492970;
+			// aapt resource value: 0x7f0c0070
+			public const int text = 2131492976;
 			
-			// aapt resource value: 0x7f0c0068
-			public const int text2 = 2131492968;
+			// aapt resource value: 0x7f0c006e
+			public const int text2 = 2131492974;
 			
 			// aapt resource value: 0x7f0c0036
 			public const int textSpacerNoButtons = 2131492918;
 			
-			// aapt resource value: 0x7f0c005d
-			public const int textViewname = 2131492957;
+			// aapt resource value: 0x7f0c0060
+			public const int textView1 = 2131492960;
 			
-			// aapt resource value: 0x7f0c005e
-			public const int textViewprice = 2131492958;
-			
-			// aapt resource value: 0x7f0c0066
-			public const int time = 2131492966;
+			// aapt resource value: 0x7f0c006c
+			public const int time = 2131492972;
 			
 			// aapt resource value: 0x7f0c002c
 			public const int title = 2131492908;
@@ -1961,11 +1982,26 @@ namespace FamilyList
 			// aapt resource value: 0x7f0c0030
 			public const int topPanel = 2131492912;
 			
-			// aapt resource value: 0x7f0c005b
-			public const int txtpassword = 2131492955;
+			// aapt resource value: 0x7f0c0075
+			public const int txtnewconfirmpassword = 2131492981;
 			
-			// aapt resource value: 0x7f0c005a
-			public const int txtusername = 2131492954;
+			// aapt resource value: 0x7f0c0062
+			public const int txtnewitemname = 2131492962;
+			
+			// aapt resource value: 0x7f0c0063
+			public const int txtnewitemprice = 2131492963;
+			
+			// aapt resource value: 0x7f0c0074
+			public const int txtnewpassword = 2131492980;
+			
+			// aapt resource value: 0x7f0c0073
+			public const int txtnewusername = 2131492979;
+			
+			// aapt resource value: 0x7f0c005e
+			public const int txtpassword = 2131492958;
+			
+			// aapt resource value: 0x7f0c005d
+			public const int txtusername = 2131492957;
 			
 			// aapt resource value: 0x7f0c0008
 			public const int up = 2131492872;
@@ -2144,7 +2180,10 @@ namespace FamilyList
 			public const int select_dialog_singlechoice_material = 2130968615;
 			
 			// aapt resource value: 0x7f040028
-			public const int support_simple_spinner_dropdown_item = 2130968616;
+			public const int signupLayout = 2130968616;
+			
+			// aapt resource value: 0x7f040029
+			public const int support_simple_spinner_dropdown_item = 2130968617;
 			
 			static Layout()
 			{
@@ -2162,6 +2201,9 @@ namespace FamilyList
 			// aapt resource value: 0x7f030000
 			public const int Icon = 2130903040;
 			
+			// aapt resource value: 0x7f030001
+			public const int logo = 2130903041;
+			
 			static Mipmap()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
@@ -2175,14 +2217,14 @@ namespace FamilyList
 		public partial class String
 		{
 			
+			// aapt resource value: 0x7f060038
+			public const int ApplicationName = 2131099704;
+			
 			// aapt resource value: 0x7f060037
-			public const int ApplicationName = 2131099703;
+			public const int Hello = 2131099703;
 			
-			// aapt resource value: 0x7f060036
-			public const int Hello = 2131099702;
-			
-			// aapt resource value: 0x7f060039
-			public const int Importance = 2131099705;
+			// aapt resource value: 0x7f06003a
+			public const int Importance = 2131099706;
 			
 			// aapt resource value: 0x7f060022
 			public const int abc_action_bar_home_description = 2131099682;
@@ -2241,8 +2283,8 @@ namespace FamilyList
 			// aapt resource value: 0x7f060034
 			public const int abc_toolbar_collapse_description = 2131099700;
 			
-			// aapt resource value: 0x7f06003b
-			public const int app_name = 2131099707;
+			// aapt resource value: 0x7f060036
+			public const int app_name = 2131099702;
 			
 			// aapt resource value: 0x7f060001
 			public const int auth_google_play_services_client_facebook_display_name = 2131099649;
@@ -2346,11 +2388,11 @@ namespace FamilyList
 			// aapt resource value: 0x7f060021
 			public const int common_signin_button_text_long = 2131099681;
 			
-			// aapt resource value: 0x7f06003a
-			public const int hello = 2131099706;
+			// aapt resource value: 0x7f06003b
+			public const int hello = 2131099707;
 			
-			// aapt resource value: 0x7f060038
-			public const int library_name = 2131099704;
+			// aapt resource value: 0x7f060039
+			public const int library_name = 2131099705;
 			
 			// aapt resource value: 0x7f060035
 			public const int status_bar_notification_info_overflow = 2131099701;

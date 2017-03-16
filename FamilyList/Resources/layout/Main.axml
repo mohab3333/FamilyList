@@ -13,30 +13,65 @@
         android:id="@+id/relativeLayout1">
         <LinearLayout
             android:orientation="vertical"
-            android:layout_width="300dp"
+            android:layout_width="250dp"
             android:layout_height="wrap_content"
-            android:id="@+id/linearLayout1"
+            android:id="@+id/linearLayoutlogIn"
             android:layout_centerInParent="true">
+            <ImageView
+                android:src="@mipmap/logo"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:id="@+id/imageView1"
+                android:layout_marginBottom="20dp"
+                android:background="#fffafafa" />
             <EditText
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="40dp"
                 android:id="@+id/txtusername"
                 android:layout_marginBottom="10dp"
-                android:hint="username" />
+                android:hint="username"
+                android:background="#ffb9b9b9"
+                android:paddingLeft="10dp"
+                android:requiresFadingEdge="horizontal" />
             <EditText
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="40dp"
                 android:id="@+id/txtpassword"
                 android:layout_marginBottom="10dp"
                 android:hint="Password"
-                android:password="true" />
-            <Button
-                android:text="log in"
-                android:layout_width="200dp"
+                android:password="true"
+                android:background="#B9B9B9"
+                android:paddingLeft="10dp" />
+            <LinearLayout
+                android:orientation="horizontal"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/btnlogin"
-                android:layout_gravity="center_horizontal"
-                android:background="#ff514856" />
+                android:id="@+id/linearLayout1">
+                <Button
+                    android:text="log in"
+                    android:id="@+id/btnlogin"
+                    android:background="@drawable/custombutton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" />
+                <TextView
+                    android:text="OR"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/textView1"
+                    android:paddingRight="30dp"
+                    android:paddingLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp" />
+                <Button
+                    android:text="Signup"
+                    android:id="@+id/btnsignup"
+                    android:background="@drawable/custombutton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
         </LinearLayout>
     </RelativeLayout>
 </LinearLayout>

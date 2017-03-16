@@ -31,13 +31,13 @@ namespace FamilyList
 		{
 			get
 			{
-				throw new NotImplementedException();
+				return itemlist.Count;
 			}
 		}
 
 		public override long GetItemId(int position)
 		{
-			throw new NotImplementedException();
+			return position;
 		}
 
 		public override View GetView(int position, View convertView, ViewGroup parent)

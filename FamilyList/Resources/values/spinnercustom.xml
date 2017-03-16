@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="UTF-8" ?>
 <resources>
-    <string name="Importance">Choose a planet</string>
+    <string name="Importance">Importance</string>
     <string-array name="Importance_array">
-        <item>Heigh</item>
-        <item>medium</item>
-        <item>low</item>       
+        <item>High</item>
+        <item>Medium</item>
+        <item>Low</item>       
     </string-array>
 </resources>

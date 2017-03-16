@@ -10,21 +10,29 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
+using KinveyXamarin;
 
 namespace FamilyList
 {
-	[Activity(Label = "listActivity")]
+	[Activity(Label = "listActivity", Theme = "@android:style/Theme.DeviceDefault.Light.NoActionBar")]
 	public class listActivity : Activity
 	{
-		protected override void OnCreate(Bundle savedInstanceState)
+		protected  async override void OnCreate(Bundle savedInstanceState)
 		{
 			base.OnCreate(savedInstanceState);
 			SetContentView(Resource.Layout.listLayout);
-			//List<shoppinglist> ls;
-			//adabterlist ad = new adabterlist(ls,this);
-			//ListView lv = FindViewById<ListView>(Resource.Id.shoppinglistview);
-			//lv.Adapter = ad;
 
+			List<shoppinglist> ls = new List<shoppinglist> { };
+			connection con = new connection();
+			await con.Initialize();
+			ls = await con.GetItems();
+			adabterlist listAdapter = new adabterlist(ls, this);
+			ListView lv = FindViewById<ListView>(Resource.Id.shoppinglistview);
+			lv.Adapter = listAdapter;
+			Button additem = FindViewById<Button>(Resource.Id.btnadditems);
+			additem.Click += delegate {
+				StartActivity(typeof(newitemActivity));
+};
 		}
 	}
 }
