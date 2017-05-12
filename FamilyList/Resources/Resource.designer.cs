@@ -1724,8 +1724,8 @@ namespace FamilyList
 			// aapt resource value: 0x7f0c0065
 			public const int btnadd = 2131492965;
 			
-			// aapt resource value: 0x7f0c005a
-			public const int btnadditems = 2131492954;
+			// aapt resource value: 0x7f0c0059
+			public const int btnadditems = 2131492953;
 			
 			// aapt resource value: 0x7f0c0076
 			public const int btnadduser = 2131492982;
@@ -1799,8 +1799,8 @@ namespace FamilyList
 			// aapt resource value: 0x7f0c0028
 			public const int image = 2131492904;
 			
-			// aapt resource value: 0x7f0c0057
-			public const int imageView1 = 2131492951;
+			// aapt resource value: 0x7f0c005c
+			public const int imageView1 = 2131492956;
 			
 			// aapt resource value: 0x7f0c0056
 			public const int importance = 2131492950;
@@ -1823,14 +1823,14 @@ namespace FamilyList
 			// aapt resource value: 0x7f0c0053
 			public const int linearLayout2 = 2131492947;
 			
-			// aapt resource value: 0x7f0c005c
-			public const int linearLayoutlogIn = 2131492956;
+			// aapt resource value: 0x7f0c005b
+			public const int linearLayoutlogIn = 2131492955;
 			
 			// aapt resource value: 0x7f0c000c
 			public const int listMode = 2131492876;
 			
-			// aapt resource value: 0x7f0c0058
-			public const int listView1 = 2131492952;
+			// aapt resource value: 0x7f0c0057
+			public const int listView1 = 2131492951;
 			
 			// aapt resource value: 0x7f0c002a
 			public const int list_item = 2131492906;
@@ -1868,8 +1868,8 @@ namespace FamilyList
 			// aapt resource value: 0x7f0c003d
 			public const int radio = 2131492925;
 			
-			// aapt resource value: 0x7f0c005b
-			public const int relativeLayout1 = 2131492955;
+			// aapt resource value: 0x7f0c005a
+			public const int relativeLayout1 = 2131492954;
 			
 			// aapt resource value: 0x7f0c0016
 			public const int screen = 2131492886;
@@ -1916,8 +1916,8 @@ namespace FamilyList
 			// aapt resource value: 0x7f0c0051
 			public const int select_dialog_listview = 2131492945;
 			
-			// aapt resource value: 0x7f0c0059
-			public const int shoppinglistview = 2131492953;
+			// aapt resource value: 0x7f0c0058
+			public const int shoppinglistview = 2131492952;
 			
 			// aapt resource value: 0x7f0c003c
 			public const int shortcut = 2131492924;

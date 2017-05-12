@@ -29,7 +29,7 @@ namespace FamilyList
 				if (password.Text == confirmPassword.Text)
 				{
 					userConnection con = new userConnection();
-					await con.Initialize();
+					 con.Initialize();
 					bool flag = await con.Adduser(new user() {username=username.Text,password=password.Text});
 					if (userConnection.isSigned)
 						Finish();

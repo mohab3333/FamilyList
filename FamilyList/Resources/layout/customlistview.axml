@@ -37,12 +37,7 @@
             android:layout_height="match_parent"
             android:id="@+id/importance"
             android:gravity="center"
-            android:autoText="false" />
-        <ImageView
-            android:src="@android:drawable/ic_menu_gallery"
-            android:id="@+id/imageView1"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
+            android:autoText="false"
             android:layout_weight="1" />
     </LinearLayout>
     <ListView

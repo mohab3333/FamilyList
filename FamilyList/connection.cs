@@ -44,6 +44,11 @@ namespace FamilyList
 			else
 				return new List<shoppinglist>();
 		}
+		public async Task<bool> DeleteItem(shoppinglist sl)
+		{
+			await itemtable.DeleteAsync(sl);
+			return await SyncItems();
+		}
 		public async Task<bool> Additem(shoppinglist slItem)
 		{
 			try

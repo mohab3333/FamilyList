@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <RelativeLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/relativeLayout1">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout1"
+            android:layout_centerInParent="true">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/txtnewusername"
+                android:layout_marginBottom="10dp"
+                android:hint="Username"
+                android:paddingLeft="10dp" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtnewpassword"
+                android:layout_marginBottom="10dp"
+                android:hint="Password"
+                android:password="true"
+                android:paddingLeft="10dp" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtnewconfirmpassword"
+                android:hint="Confirm password"
+                android:layout_marginBottom="10dp"
+                android:password="true"
+                android:paddingLeft="10dp" />
+            <Button
+                android:text="Sign up"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:id="@+id/btnadduser"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/custombutton" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

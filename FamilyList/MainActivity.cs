@@ -25,7 +25,7 @@ namespace FamilyList
 			{
 				CurrentUsername = username.Text;
 				userConnection usercon = new userConnection();
-				await usercon.Initialize();
+				 usercon.Initialize();
 				List<user> userlist = await usercon.GetUsers();
 				if (userlist.Count != 0 && userlist[0].password == password.Text)
 				{ 
